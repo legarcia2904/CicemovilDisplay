@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cicemovil Display</string>
+    <string name="title_activity_display">Cicemovil Display</string>
+    <string name="firebase_path" translatable="false">locations</string>
+    <string name="firebase_email" translatable="false">usuariocicemovil@cicese.edu.mx</string>
+    <string name="firebase_password" translatable="false">usuario2018</string>
+</resources>
