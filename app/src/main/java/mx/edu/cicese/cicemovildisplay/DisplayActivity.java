@@ -91,6 +91,31 @@ public class DisplayActivity extends FragmentActivity implements OnMapReadyCallb
                 Log.d(TAG, "Failed to read value.", error.toException());
             }
         });
+//        DatabaseReference refstops = FirebaseDatabase.getInstance().getReference(getString(R.string.firebase_stops_path));
+//        refstops.addChildEventListener(new ChildEventListener() {
+//            @Override
+//            public void onChildAdded(DataSnapshot dataSnapshot, String previousChildName) {
+//                setMarker(dataSnapshot);
+//            }
+//
+//            @Override
+//            public void onChildChanged(DataSnapshot dataSnapshot, String previousChildName) {
+//                setMarker(dataSnapshot);
+//            }
+//
+//            @Override
+//            public void onChildMoved(DataSnapshot dataSnapshot, String previousChildName) {
+//            }
+//
+//            @Override
+//            public void onChildRemoved(DataSnapshot dataSnapshot) {
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError error) {
+//                Log.d(TAG, "Failed to read value.", error.toException());
+//            }
+//        });
     }
 
     private void setMarker(DataSnapshot dataSnapshot) {
